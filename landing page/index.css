@@ -1,0 +1,238 @@
+/* --- 1. GLOBAL RESET & VARIABLES --- */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,300&display=swap");
+
+:root {
+  --dark-bg: #1f2937;
+  --header-text: #f9faf8;
+  --subtext-color: #e5e7eb;
+  --accent-blue: #3882f6;
+  --bg-quote: #e5e7eb;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* --- 2. HEADER & HERO SECTION --- */
+.dark-section {
+  background-color: var(--dark-bg);
+  color: white;
+  padding-bottom: 100px; /* Space at bottom of hero */
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header/Nav */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  margin-bottom: 60px;
+}
+
+.logo {
+  font-size: 24px;
+  color: var(--header-text);
+  font-weight: 900;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  font-size: 18px;
+  color: var(--subtext-color);
+}
+
+/* Hero Content */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+
+.hero-left {
+  flex: 1;
+}
+
+.hero-left h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: var(--header-text);
+  margin-bottom: 10px;
+  line-height: 1.1;
+}
+
+.hero-subtext {
+  font-size: 18px;
+  color: var(--subtext-color);
+  margin-bottom: 20px;
+}
+
+.btn-primary {
+  background-color: var(--accent-blue);
+  color: white;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.hero-right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+/* The Grey Placeholder Box */
+.image-placeholder {
+  background-color: #6d747d; /* Simulating the grey placeholder image */
+  color: white;
+  width: 100%;
+  height: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* --- 3. INFORMATION SECTION --- */
+.info-section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.info-header {
+  font-size: 36px;
+  font-weight: 900;
+  color: var(--dark-bg);
+  margin-bottom: 40px;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.card {
+  width: 150px;
+  text-align: center;
+}
+
+.card .box {
+  width: 150px;
+  height: 150px;
+  border: 4px solid var(--accent-blue);
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 14px;
+  color: #444;
+}
+
+/* --- 4. QUOTE SECTION --- */
+.quote-section {
+  background-color: var(--bg-quote);
+  padding: 100px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.quote-container {
+  max-width: 800px;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-weight: 300; /* Light italic per specs */
+  font-style: italic;
+  color: var(--dark-bg);
+  margin-bottom: 20px;
+}
+
+.quote-author {
+  text-align: right;
+  font-weight: 700;
+  font-size: 24px;
+  margin-top: 0;
+}
+
+/* --- 5. CTA SECTION --- */
+.cta-section {
+  padding: 100px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.cta-container {
+  background-color: var(--accent-blue);
+  width: 100%;
+  max-width: 900px;
+  border-radius: 8px;
+  padding: 40px 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.cta-text h3 {
+  margin: 0 0 5px 0;
+  font-size: 24px;
+}
+
+.cta-text p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.btn-secondary {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* --- 6. FOOTER --- */
+.footer {
+  background-color: var(--dark-bg);
+  color: var(--subtext-color);
+  text-align: center;
+  padding: 30px 0;
+  margin-top: auto;
+}
