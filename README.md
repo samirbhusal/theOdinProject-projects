@@ -1,44 +1,69 @@
-# Project Landing Page
+# The Odin Project - JavaScript & Web Development
 
-Practice implementation of The Odin Project's landing page assignment. The repo includes a polished static page (`landing-page/`) and a small Node playground (`node/`) for JavaScript experiments.
-
----
-
-## Highlights
-
-- Pixel-perfect hero, information, quote, and call-to-action sections built with semantic HTML and modern Flexbox layouts.
-- Single external dependency: Google Fonts (`Roboto` family).
-- No build tooling required—open the HTML file directly or serve it with any static server.
-- Ready to deploy on GitHub Pages in a few clicks.
+A collection of projects and exercises from The Odin Project curriculum, showcasing progressive JavaScript and web development skills.
 
 ---
 
-## Repository Layout
+## Repository Contents
+
+| Project                  | Description                                                                                                                                      |
+| ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **landing-page**         | Polished static landing page with semantic HTML and modern Flexbox layouts. Pixel-perfect hero, information, quote, and call-to-action sections. |
+| **rock-paper-scissors**  | Interactive Rock-Paper-Scissors game implementation with human vs. computer gameplay.                                                            |
+| **map-filter-reduce.js** | JavaScript functional programming exercises demonstrating `map()`, `filter()`, and `reduce()` array methods.                                     |
+| **node**                 | Node.js playground for server experiments and JavaScript sandbox work. Includes axios dependency for HTTP requests.                              |
+
+---
+
+## Directory Structure
 
 ```
 .
-├── landing-page/       # Production-ready HTML/CSS for the assignment
+├── landing-page/       # Production-ready HTML/CSS project
 │   ├── index.html
 │   ├── index.css
-│   └── public/         # Sandbox assets/components for future tweaks
-├── node/               # Optional Node.js scratch space (Hello World server, axios deps)
+│   └── public/         # Assets and components
+├── rock-paper-scissors/
+│   ├── index.html
+│   └── script.js
+├── node/               # Node.js scratch space
+│   ├── app.js
+│   ├── server.js
+│   └── package.json
+├── map-filter-reduce.js
 └── README.md
 ```
 
 ---
 
-## Run Locally
+## Getting Started
 
-1. Clone or download the repository.
-2. Open `landing-page/index.html` in any modern browser.
-3. Edit `index.css` to experiment with layout, colors, or typography. Styles are grouped into well-labeled sections for quick navigation.
+### Landing Page
 
-## Deploy to GitHub Pages
+1. Open `landing-page/index.html` in a browser.
+2. Edit `index.css` to customize styles.
 
-1. Create a GitHub repository and push this project.
-2. Move/rename `landing-page` contents into the repo root (or configure Pages to point at `/landing-page`).
-3. In your repo, open **Settings → Pages**.
-4. Select the branch (here `landing-page`) and the folder (`/root`) to publish.
-5. Save—GitHub Pages will build and provide a public URL within a minute.
+### Rock-Paper-Scissors
 
-Happy building!
+1. Open `rock-paper-scissors/index.html` in a browser to play.
+2. Follow prompts to enter your choice (rock, paper, or scissors).
+
+### Array Methods
+
+1. Open `map-filter-reduce.js` to view functional programming examples.
+2. Run with `node map-filter-reduce.js` or execute in a browser console.
+
+### Node.js Playground
+
+1. Navigate to the `node/` directory.
+2. Install dependencies: `npm install`
+3. Run the server or app as needed.
+
+---
+
+## Key Highlights
+
+- **No build tooling required** for most projects—open HTML files directly or use Node.js.
+- **Modern JavaScript** with functional programming patterns.
+- **Semantic HTML** and responsive design principles.
+- **Git version control** with organized project structure.
