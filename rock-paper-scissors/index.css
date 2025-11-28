@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.heading {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+}
+.btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 25%;
+}
+
+.btn-container button {
+  width: 100px;
+  height: 50px;
+  border: 2px solid blue;
+  border-radius: 10px;
+}
+
+.playRound {
+  justify-content: center;
+  align-items: center;
+}
+
+.score {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.score div {
+  margin: 10px 0px;
+}
