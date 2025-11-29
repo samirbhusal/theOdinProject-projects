@@ -3,14 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="script.js"></script>
-    <title>Project: Rock Paper Scissor</title>
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="index.css" />
+    <script defer src="script.js"></script>
   </head>
   <body>
-    <h1>Rock Paper Scissor Game</h1>
-    <p>
-      This is a simple implementation of the classic Rock Paper Scissor game and
-      open console to play.
-    </p>
+    <h1 class="heading">Rock Paper Scissor Game</h1>
+
+    <div class="container">
+      <div class="score">
+        <div class="score-div">You: 0 | Computer: 0</div>
+        <div class="result-div"></div>
+      </div>
+
+      <div class="btn-container">
+        <button class="choice-btn" data-choice="rock">Rock</button>
+        <button class="choice-btn" data-choice="paper">Paper</button>
+        <button class="choice-btn" data-choice="scissors">Scissors</button>
+      </div>
+    </div>
   </body>
 </html>
